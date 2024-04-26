@@ -101,7 +101,7 @@ console.log(req.body);
 
 
 const userEmail = 'user@example.com';
-const resetLink = '/http://localhost:5173';
+const resetLink = 'https://662b894a97f7a6b5fa82a48f--profound-jelly-4d7333.netlify.app';
 
 
     try {
@@ -123,7 +123,7 @@ const resetLink = '/http://localhost:5173';
 
         const anchorElement = `
     <p>
-        <a href="http://localhost:5173/newPassword?token=${token}&id=${findUser._id}">Reset Password</a>
+        <a href="https://662b894a97f7a6b5fa82a48f--profound-jelly-4d7333.netlify.app?token=${token}&id=${findUser._id}">Reset Password</a>
     </p>
 `;
 
