@@ -123,7 +123,7 @@ const resetLink = 'https://662b894a97f7a6b5fa82a48f--profound-jelly-4d7333.netli
 
         const anchorElement = `
     <p>
-        <a href="https://662b894a97f7a6b5fa82a48f--profound-jelly-4d7333.netlify.app?token=${token}&id=${findUser._id}">Reset Password</a>
+        <a href="https://662b894a97f7a6b5fa82a48f--profound-jelly-4d7333.netlify.app/newPassword?token=${token}&id=${findUser._id}">Reset Password</a>
     </p>
 `;
 
