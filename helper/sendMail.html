@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reset Your Password</title>
+    <style>
+        /* Add some styling to your email */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        a {
+            display: inline-block;
+            padding: 10px 15px;
+            margin: 20px 0;
+            color: white;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Reset Your Password</h1>
+    <p>Hello {{userName}},</p>
+    <p>We received a request to reset your password. If you did not make this request, you can ignore this email.</p>
+    <p>To reset your password, please click the link below:</p>
+    <p><a href="{{resetLink}}">Reset Password</a></p>
+    <p>If you have any trouble with the link, copy and paste the following URL into your browser:</p>
+    <p>{{resetLink}}</p>
+    <p>Thank you!</p>
+    <p>Best regards,</p>
+    <p>Your Team</p>
+</body>
+
+</html>
